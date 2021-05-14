@@ -4,7 +4,7 @@ pub mod algorithm;
 use std::io::{self, prelude::*, BufReader};
 use std::fs::File;
 
-
+#[derive(Debug)]
 pub struct Node {
     pub id: usize,
 }
